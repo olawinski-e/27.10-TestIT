@@ -1,0 +1,24 @@
+{
+  "name": "laurent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch stylesheets -o stylesheets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olawinski-e/27.10-TestIT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olawinski-e/27.10-TestIT/issues"
+  },
+  "homepage": "https://github.com/Olawinski-e/27.10-TestIT#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {}
+}

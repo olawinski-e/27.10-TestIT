@@ -1,3 +1,181 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-image: url(../images/);
+  /* HEADER */ }
 
+body h1,
+body h2,
+body h3,
+body h4,
+body p {
+  margin: 0;
+  padding: 0; }
 
-/*# sourceMappingURL=index.css.map */
+body .light {
+  font-weight: 300; }
+
+body .bold {
+  font-weight: 500; }
+
+body .w-100 {
+  width: 100%; }
+
+body .header-desktop {
+  background-color: #000000;
+  width: 100%;
+  height: 14vh; }
+
+body .header-desktop a {
+  text-decoration: none;
+  color: #fff; }
+
+body .header-desktop .first-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px; }
+
+body .header-desktop .first-part .nav-desktop {
+  display: flex;
+  align-items: center; }
+
+body .header-desktop .first-part .nav-desktop .search-part {
+  display: flex;
+  margin-right: 40px;
+  align-items: center; }
+
+body .header-desktop .first-part .nav-desktop .search-part .box-search {
+  width: 20px;
+  padding-right: 10px;
+  border-right: solid 2px #fff; }
+
+body .header-desktop .first-part .nav-desktop .search-part .box-search img {
+  width: 100%; }
+
+body .header-desktop .first-part .nav-desktop .search-part input {
+  background-color: #000000;
+  border: none;
+  padding-left: 10px;
+  color: #fff;
+  width: 150px; }
+
+body .header-desktop .first-part .nav-desktop .basket-account-part {
+  display: flex;
+  align-items: center; }
+
+body .header-desktop .first-part .nav-desktop .basket-account-part .basket-box,
+body .header-desktop .first-part .nav-desktop .basket-account-part .account-box {
+  width: 20px;
+  margin-left: 10px; }
+
+body .header-desktop .first-part .nav-desktop .basket-account-part .basket-box img,
+body .header-desktop .first-part .nav-desktop .basket-account-part .account-box img {
+  width: 100%; }
+
+body .header-desktop .first-part .nav-desktop .basket-account-part a {
+  font-size: 14px;
+  padding-left: 10px; }
+
+body .header-desktop hr {
+  margin: 0; }
+
+body .header-desktop .second-part {
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  align-items: center; }
+
+body .header-desktop .second-part a {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 10px 10px; }
+
+body .header-desktop .second-part a:hover {
+  background-color: #fff;
+  color: #000000;
+  height: 10px; }
+
+body .slider {
+  background-image: url("../images/girl-desktop.jpg");
+  height: 45vh;
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+body .slider .arrow-left {
+  position: absolute;
+  left: 50px; }
+
+body .slider .arrow-right {
+  position: absolute;
+  right: 50px; }
+
+body .test {
+  background-color: #000000;
+  height: 32vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; }
+
+body .test .half {
+  width: 48%;
+  display: flex;
+  flex-direction: column; }
+
+body .test .half .my-brand {
+  display: flex;
+  justify-content: space-between; }
+
+body .test .half .my-brand p {
+  font-size: 14px; }
+
+body .test .half .my-brand .quarante {
+  width: 40%; }
+
+body .test .mon-compte {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+body .test .mon-compte p {
+  font-size: 16px;
+  padding-bottom: 10px; }
+
+body .test .mon-compte input {
+  width: 99%;
+  height: 40px;
+  border: none; }
+
+body .test .mon-compte .mdp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+body .test .mon-compte .mdp button {
+  background-color: #c2a475;
+  height: 40px;
+  color: #fff;
+  width: 150px; }
+
+body .footer-desktop {
+  height: 40px;
+  background-color: #fff;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; }
+
+body .footer-desktop p {
+  font-size: 10px; }
