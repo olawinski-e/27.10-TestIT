@@ -71,15 +71,48 @@
       </div>
     </header>
 
+    <!-- HEADER MOBILE -->
+    <header class="header-mobile">
+      <div id="dropdown">
+        <button id="hamburger-button" class="dropbtn" onclick="menuAppear()">
+          &#9776;
+        </button>
+        <div class="logo">
+          <h1>MYBRAND</h1>
+        </div>
+        <div class="box-search">
+          <img src="images/search-icon.png" alt="" />
+        </div>
+        <div class="basket-box">
+          <img src="images/basket-icon.png" alt="" />
+        </div>
+        <div class="account-box">
+          <img src="images/account-icon.png" alt="" />
+        </div>
+        <div id="myDropdown" class="dropdown-content">
+          <nav class="nav-mobile">
+            <a href="#">Premium</a>
+            <a href="#">Discover</a>
+            <a href="#">Help</a>
+            <a href="#">Download</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
     <!-- SECTION SLIDER -->
     <section class="slider">
-      <div class="arrow-left"><img src="images/arrowLicon.png" alt="" /></div>
-      <div class="arrow-right"><img src="images/arrowRicon.png" alt="" /></div>
+      <div class="arrow-left">
+        <img class="w-100" src="images/arrowLicon.png" alt="" />
+      </div>
+      <div class="arrow-right">
+        <img class="w-100" src="images/arrowRicon.png" alt="" />
+      </div>
     </section>
 
-    <!-- SECTION TEST -->
-    <section class="test">
-      <div class="half">
+    <!-- SECTION TEST DESKTOP -->
+    <section class="test-desktop">
+      <div class="half h1">
         <h2>Test | MyBrand</h2>
         <div class="my-brand">
           <p class="half">
@@ -101,7 +134,7 @@
         </div>
       </div>
 
-      <div class="half">
+      <div class="half h2">
         <div class="mon-compte">
           <h2>MON COMPTE</h2>
 
@@ -123,13 +156,59 @@
       </div>
     </section>
 
+    <!-- SECTION TEST MOBILE -->
+    <section class="test-mobile">
+      <div class="half h2">
+        <div class="mon-compte">
+          <h2>MON COMPTE</h2>
+
+          <div>
+            <p>Identifiant</p>
+            <input type="text" />
+          </div>
+
+          <div>
+            <p>Mot de passe</p>
+            <input type="text" />
+          </div>
+
+          <div class="mdp">
+            <button>Se connecter</button>
+            <p>Mot de passe oublié?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="half h1">
+        <h2>Test | MyBrand</h2>
+        <div class="my-brand">
+          <p class="half">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit
+            amet eros a arcu pulvinar scelerisque et nec elit. Vestibulum mollis
+            euismod ex, at consequat dui vestibulum a. Phasellus tristique lacus
+            commodo varius tempus. Sed a eleifend ipsum, non faucibus velit.
+            Morbi fermentum arcu vel mollis gravida. Donec eget elit accumsan,
+            hendrerit neque vel, cursus elit. Maecenas eget turpis aliquet,
+            semper leo at, consequat libero. Aliquam condimentum arcu a ornare
+            ultrices. Nam malesuada nulla sed molestie euismod. Duis et orci
+            varius, ornare quam feugiat, lacinia ligula. Aenean vel enim tempus,
+            vehicula urna ac, gravida nisl.
+          </p>
+
+          <div class="quarante">
+            <img class="w-100" src="images/girl-bottom-left.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- FOOTER -->
     <footer class="footer-desktop">
-      <p class="light">
+      <p class="light p1">
         La boutique de mode en ligne mybrand.com vous propose une collection de
         vêtements femme : Prêt-à-porter, Lingerie
       </p>
-      <p class="bold">© mybrand 2015 - Infos légales</p>
+      <p class="bold p2">© mybrand 2015 - Infos légales</p>
     </footer>
   </body>
 </html>
